@@ -48,12 +48,12 @@ body {
     width: 215px !important;
 }
 
-.btn {
-    color: #ffffff !important;
+.btn:focus {
+    box-shadow: -6px 0px 8px 0px #00FFA9 !important;
 }
 
-.btn:focus {
-    box-shadow: 6px 0px 6px 0px #00FFA9 !important;
+.btn1:focus {
+    box-shadow: 6px 0px 8px 0px #00FFA9 !important;
 }
 
 .dropdown-item {
@@ -74,48 +74,6 @@ body {
     transform: scale(1.1);
     box-shadow: 6px 0px 12px 0px #00FFA9;
 }
-
-.dropdown1 {
-    position: relative;
-    display: inline-block;
-}
-
-.dropbtn {
-    background-color: #ffffff;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: transparent;
-    width: 215px;
-    right: 10px;
-    min-width: 160px;
-    border-radius: 5px;
-    z-index: 1;
-  }
-
-  .dropdown-content a {
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-
-  .dropdown-content a:hover {
-    color: #00FFA9;
-    transform: scale(1.1);
-    border-radius: 5px;
-    box-shadow: 6px 0px 10px 0px #00FFA9;
-    
-}
-
-  .dropdown1:hover .dropdown-content {display: block;}
-
-  .dropdown1:hover .dropbtn .usermenu path {fill: #00FFA9;}
-
 
   .usermenu {
     width: 15px;

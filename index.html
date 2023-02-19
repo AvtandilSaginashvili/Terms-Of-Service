@@ -22,7 +22,7 @@
                 <div class="d-flex align-items-center">
 
                     <div class="dropdown">
-                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                           <img src="./Pics/menu.png" alt="menu">
                         </button>
                         <ul class="dropdown-menu">
@@ -43,23 +43,10 @@
 
                     <a href="#"><img src="./Pics/Userpic.png" alt="Userpic"></a>
                     <h6 class="kateb">Kate B.</h6>
-
-                    <div class="dropdown1">
-                        <button class="dropbtn"><a href="#"><svg class="usermenu" width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.640625 0.875L4.64062 4.875L8.64062 
-                            0.875H0.640625Z" fill="#1B1B1B"/>
-                            </svg></a></button>
-                        <div class="dropdown-content">
-                            <p class="signed">Signed in as Kate B.</p>
-                          <a class="content1" href="#">Your Profile</a>
-                          <a class="content1" href="#">Accounts</a>
-                          <a class="content1" href="#">Settings</a>
-                          <a class="content1" href="#">Log Out </a>
-                        </div>
-                      </div>
-
-
+                      
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                         
+                    </button>
 
                 </div>
 
@@ -100,7 +87,7 @@
 
       <footer>
 
-        <div class="container-fluid pb-5">
+        <div class="container-fluid pb-1">
 
             <div class="row align-items-center d-flex align-items-center">
 
@@ -162,6 +149,19 @@
         </div>
 
       </footer>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <li class="dropdown-item"><a href="#">Your Profile</a></li>
+          <li class="dropdown-item"><a href="#">Accaunts</a></li>
+          <li class="dropdown-item"><a href="#">Settings</a></li>
+          <li class="dropdown-item"><a href="#">Log Out</a></li>
+        </div>
+      </div>
     
 </body>
 </html>
