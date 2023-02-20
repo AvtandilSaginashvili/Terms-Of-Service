@@ -48,12 +48,21 @@ body {
     width: 215px !important;
 }
 
-.btn:focus {
-    box-shadow: -6px 0px 8px 0px #00FFA9 !important;
+.btn1 {
+    border: none !important;
 }
 
 .btn1:focus {
-    box-shadow: 6px 0px 8px 0px #00FFA9 !important;
+    box-shadow: -6px 0px 8px 0px #00FFA9 !important;
+    border: none !important;
+}
+
+.shape1 {
+    border: none !important;
+}
+
+.shape1:active {
+    border: none !important;
 }
 
 .dropdown-item {
@@ -73,6 +82,19 @@ body {
     border-radius: 5px !important;
     transform: scale(1.1);
     box-shadow: 6px 0px 12px 0px #00FFA9;
+}
+
+.items1 {
+    font-family: FiraGo;
+    text-decoration: none !important;
+    transition: all.3s !important;
+    padding: 5px !important;
+    color: #000000;
+}
+
+.items1:hover {
+    color: #00FFA9;
+    transform: scale(1.2);
 }
 
   .usermenu {
@@ -136,6 +158,8 @@ body {
     font-size: 18px;
     margin-top: 58px;
     transition: all .3s;
+    display: flex;
+    align-items: center;
 }
 
 .downloadbtn:hover {
